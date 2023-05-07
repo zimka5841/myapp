@@ -34,19 +34,19 @@ class RegistrationActivity : AppCompatActivity() {
             val password = passwordEditText.text.toString()
 
             // Перевірка довжини логіну та паролю
-            if (login.length < 6) {
-                loginEditText.error = "Логін повинен містити не менше 6 символів"
+            if (login.length < 4) {
+                loginEditText.error = "Логін повинен містити як мінімум 4 символа"
                 return@setOnClickListener
             }
-            if (password.length < 8) {
-                passwordEditText.error = "Пароль повинен містити не менше 8 символів"
+            if (password.length < 4) {
+                passwordEditText.error = "Пароль повинен містити як мінімум 4 символа"
                 return@setOnClickListener
             }
 
             // Перевірка, чи логін не зайнятий
             val userExists = sharedPreferences.getString(login, null)
             if (userExists != null) {
-                loginEditText.error = "Користувач з таким логіном вже існує"
+                loginEditText.error = "Такий користувач вже існує"
                 return@setOnClickListener
             }
 

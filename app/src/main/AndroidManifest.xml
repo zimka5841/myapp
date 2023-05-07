@@ -24,6 +24,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupActivity"
+            android:exported="false" />
+        <activity
             android:name=".TreteActivity"
             android:exported="false" />
         <activity

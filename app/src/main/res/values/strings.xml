@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">myapp</string>
+    <string name="TeacherAct_name">Список викладачів</string>
+    <string name="GroupAct_name">Список груп</string>
+    <string name="Add_Button_text">Додати</string>
+    <string name="Teacher_name">Teacher name</string>
+    <string name="Activity_menu">Меню</string>
+    <string name="Hello_message">Вітаємо у MainActivity</string>
+    <string name="Hello_second_message">Вітаємо у SecondActivity</string>
+    <string name="Hello_third_message">Вітаємо у ThirdActivity</string>
 </resources>
